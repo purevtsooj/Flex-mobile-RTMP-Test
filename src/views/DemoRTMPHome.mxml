@@ -18,14 +18,8 @@
 			private var videoHolder:UIComponent;
 			private var nc:NetConnection;
 			
-			private var defaultURL:String="rtmp://67.207.78.25/live/";
-			private var videoURL:String="/Radio1KK";
-			
-			//private var defaultURL:String="rtmp://202.131.235.59/live/";
-			//private var videoURL:String="/livestream";
-			
-			//private var defaultURL:String="http://96.31.83.87:8011/stream";
-			//private var videoURL:String="stream";
+			private var defaultURL:String="rtmp://<YOUR-RTMP-URL>";
+			private var videoURL:String="/<VIDEO-URL>";
 			
 			private var ns:NetStream;
 			private var msg:Boolean;
